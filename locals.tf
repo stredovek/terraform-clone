@@ -3,7 +3,7 @@ locals {
   location="West Europe"
 
  virtual_network={
-    name="test-network"
+    name="network-veterani"
     address_space="10.5.0.0/16"
   }
 
