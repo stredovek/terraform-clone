@@ -19,7 +19,7 @@ provider "azurerm" {
 }
 
 module "resource_group_creation" {
-  source              = "./moduleRG"
+  source              = "github.com/stredovek/modules-create-rg.git"
   location            = "westeurope"
   resource_group_name = "MyemptyRG"
 
